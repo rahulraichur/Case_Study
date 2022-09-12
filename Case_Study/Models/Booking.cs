@@ -14,12 +14,7 @@ namespace Case_Study.Models
 
         public int TotalTickets { get; set; }
 
-        public int SeatNo1 { get; set; }
-
-        public int SeatNo2 { get; set; }
-
-        public int SeatNo3 { get; set; }
-
+        public int SeatNo { get; set; }
         public double TotalCost { get; set; }
         public DateTime Date { get; set; }
 
